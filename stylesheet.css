@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: auto;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,22 +10,22 @@
 }
 
 .spacer {
-  height: 2.5em;
+  height: 2.5vw;
 }
 
 header {
   display: flex;
-  height: 80px;
+  height: 5.2vw;
   max-width: 1366px;
 }
 
 .logo p {
   flex: 25%;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2.5vw;
   font-weight: 800;
   color: rgb(54, 10, 124);
-  line-height: 25px;
+  line-height: 2.2vw;
 }
 
 .menu {
@@ -38,22 +38,16 @@ header {
 
 .menu li {
   display: inline;
-  padding: 15px;
-}
-
-.menu li:hover {
-  border-left: 5px solid rgb(28, 3, 87);
-  border-bottom: 2px solid rgb(28, 3, 87);
 }
 
 li a {
-  margin-left: 30px;
+  margin-left: 3.5vw;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
 .title {
-  font-size: 3.5em;
+  font-size: 4.5vw;
   text-align: center;
   font-weight: 700;
 }
@@ -66,26 +60,22 @@ li a {
 img {
   flex: 1;
   width: 500px;
-  padding: 12px;
+  padding: 1vw;
 }
 
 .abt {
   flex: 1;
-  padding: 12px;
+  padding: 1.5vw;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 3.5vw;
 }
 
 p {
   text-align: left;
-  line-height: 35px;
-  font-size: 20px;
-}
-
-.spacer1 {
-  height: 2em;
+  line-height: 2.4vw;
+  font-size: 1.2vw;
 }
 
 .ser {
@@ -93,19 +83,19 @@ p {
 }
 
 .ser .box {
-  margin-left: 20px;
+  /* margin-left: 1.5vw; */
   flex: 1;
   text-align: center;
-  padding: 10px;
+  padding: 1vw;
 }
 
 h1 {
   text-align: center;
-  font-size: 2.2em;
+  font-size: 2.8vw;
 }
 
 .ser i {
-  font-size: 9.5em;
+  font-size: 8vw;
   color: rgb(54, 10, 124);
 }
 
@@ -116,13 +106,11 @@ h1 {
   background-size: cover;
   background-attachment: fixed;
 }
-/* .cont img {
-} */
 
 .con {
   flex: 1;
   color: blanchedalmond;
-  margin-top: 200px;
+  margin-top: 2vw;
 }
 .map {
   text-align: center;
@@ -137,20 +125,16 @@ footer {
 
 footer p {
   text-align: center;
-  line-height: 60px;
+  line-height: 4vw;
   color: rgb(255, 255, 255);
-  font-size: 1em;
+  font-size: 1.3vw;
 }
 .iconmain {
-  /* width: 100px; */
   display: flex;
-  /* padding: -50 px; */
-  margin-left: 680px;
-  /* margin-top: -35px; */
+  width: 11.6vw;
 }
 
 .icon svg {
-  height: 30px;
-  width: 30px;
-  padding: 10px;
+  height: 2.5vw;
+  width: 2.5vw;
 }
